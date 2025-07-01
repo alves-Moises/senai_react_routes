@@ -1,5 +1,15 @@
 *{
   padding: 0;
   margin: 0;
-  background-color: #da9
+}
+body{
+  background-color: rgb(231, 70, 159)
+}
+
+.container{
+  display: flex;
+  padding: 30px;
+}
+.container-center{
+  justify-content: center;
 }
