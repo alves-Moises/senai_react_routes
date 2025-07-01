@@ -1,3 +1,12 @@
+import { NavBar } from "../components/Navbar"
+
 export function About(){
-    return <H1>About</H1>
+    return (
+        <>
+            <NavBar />
+            <div className="container container-center">
+                <h1>About</h1>
+            </div>
+        </>
+    )
 }

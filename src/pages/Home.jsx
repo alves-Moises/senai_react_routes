@@ -1,12 +1,12 @@
-import {Navbar, Link} from "react-router-dom"
+import { NavBar } from "../components/Navbar"
 export function Home(){
     return (
         <>
-        <h1></h1>
-            <NavBar>
+            <NavBar />
+            <div className="container container-center">
+                <h1>test</h1>
+            </div>
             
-            
-            </NavBar>
         </>
     )
 }
